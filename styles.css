@@ -7,7 +7,11 @@ p, li {
     display: list-item;
     text-align: -webkit-match-parent;    
 }
+b,ol
+{
 
+	color:white;
+}
 ul {
 	margin: 0;
     padding: 5px 0 0 30px;
@@ -25,6 +29,9 @@ ul {
     padding-inline-start: 40px;
 }
 section {
+	margin-right: 5%; /* Отступ справа */
+    margin-left: 5%; /* Отступ слева */
+    margin-top: 2%;
 	color: white;
 	text-align: left;
 	font-size:40px; 
@@ -80,6 +87,8 @@ float: left;
 }
 .box1
 {
-	margin:3%; /* Отступ сверху */
-	
+	margin-right: 5%; /* Отступ справа */
+    margin-left: 5%; /* Отступ слева */
+	/* margin:3%;  Отступ сверху */
 }
+
